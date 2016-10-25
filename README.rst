@@ -40,7 +40,7 @@ Russian
 
 Берем файл multipart.py, модифицируем _read_chunk_from_stream вставляя print
 
-::
+.. code:: python
 
   @asyncio.coroutine
     def _read_chunk_from_stream(self, size):
